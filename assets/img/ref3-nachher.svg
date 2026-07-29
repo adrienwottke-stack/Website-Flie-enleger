@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#36322e"/>
+      <stop offset="1" stop-color="#262320"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#g)"/>
+  <line x1="320.0" y1="0" x2="320.0" y2="800" stroke="#eae3d6" stroke-opacity="0.14" stroke-width="1.4"/><line x1="640.0" y1="0" x2="640.0" y2="800" stroke="#eae3d6" stroke-opacity="0.14" stroke-width="1.4"/><line x1="960.0" y1="0" x2="960.0" y2="800" stroke="#eae3d6" stroke-opacity="0.14" stroke-width="1.4"/><line x1="0" y1="266.7" x2="1280" y2="266.7" stroke="#eae3d6" stroke-opacity="0.14" stroke-width="1.4"/><line x1="0" y1="533.3" x2="1280" y2="533.3" stroke="#eae3d6" stroke-opacity="0.14" stroke-width="1.4"/>
+  <rect width="1280" height="800" fill="#17181a" opacity="0.18"/>
+  <text x="640" y="390" text-anchor="middle" font-family="Georgia, serif" font-size="44" letter-spacing="14" fill="#eae3d6" opacity="0.85">NACHHER</text>
+  <text x="640" y="442" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" letter-spacing="4" fill="#eae3d6" opacity="0.45">Projektfoto folgt</text>
+</svg>
