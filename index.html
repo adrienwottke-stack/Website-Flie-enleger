@@ -2,7 +2,8 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Fliesenleger Thomas Gerber · Malschwitz-Doberschütz – Millimeterarbeit aus der Oberlausitz</title>
   <meta name="description" content="Fliesenleger Thomas Gerber, Malschwitz-Doberschütz. Bad komplett, Großformat &amp; Naturstein, Fußbodenheizung, Sanierung. Festpreisangebot in 5 Tagen. Einzugsgebiet 40 km um Bautzen.">
   <meta name="theme-color" content="#17181a">
@@ -68,7 +69,7 @@
         <div class="hero__content" data-hero-content>
           <p class="hero__eyebrow">Malschwitz-Doberschütz · Oberlausitz</p>
           <h1 class="hero__title">
-            <span class="hero__title-line hero__title-line--small">Fliesenleger</span>
+            <span class="hero__title-line hero__title-line--small">Fliesenlegerfachbetrieb</span>
             <span class="hero__title-line hero__title-line--large">Thomas Gerber</span>
           </h1>
           <p class="hero__sub">Millimeterarbeit aus der Oberlausitz.</p>
@@ -120,9 +121,9 @@
           <div class="ba__frame">
             <img class="ba__img ba__img--before" src="assets/img/ref1-vorher.svg" alt="Vorher: Zustand vor der Sanierung – Projektfoto folgt" data-ba-before>
             <img class="ba__img ba__img--after" src="assets/img/ref1-nachher.svg" alt="Nachher: Zustand nach der Sanierung – Projektfoto folgt" data-ba-after>
-            <div class="ba__divider" aria-hidden="true"><span class="ba__handle"></span></div>
             <input class="ba__range" type="range" min="0" max="100" value="50" step="0.1"
                    aria-label="Vorher-Nachher-Vergleich verschieben" data-ba-range>
+            <div class="ba__divider" aria-hidden="true"><span class="ba__handle"></span></div>
             <span class="ba__tag ba__tag--before" aria-hidden="true">Vorher</span>
             <span class="ba__tag ba__tag--after" aria-hidden="true">Nachher</span>
           </div>
@@ -239,7 +240,7 @@
               </div>
               <div class="field field--half">
                 <label for="f-qm">ca. qm</label>
-                <input type="number" id="f-qm" name="qm" min="1" max="1000" inputmode="numeric"
+                <input type="text" id="f-qm" name="qm" inputmode="decimal"
                        aria-describedby="e-qm">
                 <p class="field__error" id="e-qm" role="status"></p>
               </div>
@@ -248,8 +249,8 @@
                 <input type="text" id="f-zeitraum" name="zeitraum" placeholder="z. B. Frühjahr 2027">
               </div>
               <div class="field field--hp" aria-hidden="true">
-                <label for="f-firma">Firma</label>
-                <input type="text" id="f-firma" name="firma" tabindex="-1" autocomplete="off">
+                <label for="f-prueffeld">Dieses Feld bitte leer lassen</label>
+                <input type="text" id="f-prueffeld" name="prueffeld" tabindex="-1" autocomplete="off">
               </div>
               <button class="btn btn--primary btn--block" type="submit">Anfrage senden</button>
             </form>
@@ -300,6 +301,8 @@
     <a class="callbar__btn callbar__btn--call" href="tel:+493591208360">Anrufen</a>
     <a class="callbar__btn callbar__btn--cta" href="#anfrage">Aufmaß anfragen</a>
   </div>
+
+  <button class="media-toggle" type="button" data-media-toggle aria-pressed="false" hidden>Videos anhalten</button>
 
   <div class="grain" aria-hidden="true"></div>
 
