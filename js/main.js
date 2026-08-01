@@ -1,4 +1,4 @@
-/* Fliesenleger Thomas Gerber — main.js */
+/* Fliesenlegerfachbetrieb Thomas Gerber — main.js */
 (function () {
   "use strict";
 
